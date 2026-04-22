@@ -1,0 +1,56 @@
+{
+  "name": "SmartTour360 - India's Premier Travel Booking Platform",
+  "short_name": "SmartTour360",
+  "description": "Book flights, trains, buses, and curated tours across 200+ Indian destinations with AI-powered safety ratings.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#fafaf9",
+  "theme_color": "#f97316",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["travel", "booking", "tourism"],
+  "screenshots": [],
+  "shortcuts": [
+    {
+      "name": "Book Flight",
+      "short_name": "Flights",
+      "description": "Search and book flights across India",
+      "url": "/flight-booking",
+      "icons": [{ "src": "/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Book Train",
+      "short_name": "Trains",
+      "description": "Search and book train tickets",
+      "url": "/train-booking",
+      "icons": [{ "src": "/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Book Bus",
+      "short_name": "Buses",
+      "description": "Search and book bus tickets",
+      "url": "/bus-booking",
+      "icons": [{ "src": "/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Book Tour",
+      "short_name": "Tours",
+      "description": "Explore curated tour packages",
+      "url": "/tour-booking",
+      "icons": [{ "src": "/icon-192.png", "sizes": "192x192" }]
+    }
+  ]
+}
